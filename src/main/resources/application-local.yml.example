@@ -1,0 +1,15 @@
+# 复制本文件为 application-local.yml 并填入真实值（application-local.yml 已被 .gitignore 排除）
+spring:
+  datasource:
+    username: root
+    password: "your-db-password"
+
+dify:
+  api:
+    base-url: http://localhost/v1
+    chat-key: app-your-chat-key
+    work-flow-key: app-your-workflow-key
+    text-to-sql-key: app-your-text-to-sql-key
+
+lcba-api:
+  base-url: http://your-lcba-host:8181/tyyw
